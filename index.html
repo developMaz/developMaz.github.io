@@ -1,13 +1,9 @@
 <html lang="en"> 
 
-
-
- 
 <head> 
 
 
 
- 
   <meta charset="UTF-8"> 
 
 
@@ -88,7 +84,7 @@
 
 
  
-        action="http://localhost:8080/v1/task/createTask" 
+        action="'https://shrouded-everglades-23359.herokuapp.com/v1/task/createTask" 
 
 
 
@@ -244,138 +240,32 @@
 
  
       <label class="datatable__input-label"> 
-
-
-
- 
         Task name 
-
-
-
- 
       </label> 
-
-
-
- 
       <input type="text" name="title" placeholder="Insert a new task name" data-task-name-input required minlength="3"> 
-
-
-
- 
       <p class="datatable__field-value" data-task-name-paragraph></p> 
-
-
-
- 
     </fieldset> 
 
-
-
- 
- 
-
-
-
- 
     <fieldset class="datatable__row-section datatable__row-section--input-section" data-task-content-section> 
-
-
-
- 
       <label class="datatable__input-label"> 
-
-
-
- 
         Task content 
-
-
-
- 
       </label> 
-
-
-
- 
       <textarea name="title" placeholder="Insert new task content" data-task-content-input required minlength="3"></textarea> 
-
-
-
- 
       <p class="datatable__field-value" data-task-content-paragraph></p> 
-
-
-
- 
     </fieldset> 
 
-
-
- 
- 
-
-
-
- 
     <fieldset class="datatable__row-section datatable__row-section--button-section"> 
-
-
-
- 
       <button type="button" data-task-submit-update-button class="datatable__button datatable__button--editing ">Submit update</button> 
-
-
-
- 
       <button type="button" data-task-edit-abort-button class="datatable__button datatable__button--editing">Abort update</button> 
-
-
-
- 
       <button type="button" data-task-edit-button class="datatable__button">Edit</button> 
-
-
-
- 
       <button type="button" data-task-delete-button class="datatable__button">Delete</button> 
 
-
-
- 
     </fieldset> 
-
-
-
- 
   </form> 
-
-
-
- 
 </div> 
 
-
-
- 
- 
-
-
-
- 
 <script src="jquery-3.2.1.min.js"></script> 
-
-
-
- 
 <script src="script.js"></script> 
 
-
-
- 
 </body> 
-
-
-
- 
 </html>
