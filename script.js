@@ -56,7 +56,7 @@ $(document).ready(function() {
         content: taskContent
       }),
       success: function(data) {
-        parentEl.attr('data-task-id', data.id).toggleClass('datatable__row--editing');
+        parentEl.attr('data-task-id', data.id).toggleClass('datatable_row-editing');
         parentEl.find('[data-task-name-paragraph]').text(taskTitle);
         parentEl.find('[data-task-content-paragraph]').text(taskContent);
       }
@@ -107,7 +107,7 @@ $(document).ready(function() {
 
   function toggleEditingState() {
     var parentEl = $(this).parent().parent();
-    parentEl.toggleClass('datatable__row--editing');
+    parentEl.toggleClass('datatable_row-editing');
 
     var taskTitle = parentEl.find('[data-task-name-paragraph]').text();
     var taskContent = parentEl.find('[data-task-content-paragraph]').text();
