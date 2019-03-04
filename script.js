@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var apiRoot = 'https://shrouded-everglades-23359.herokuapp.com/v1/task/';
+  var apiRoot = 'https://mysterious-retreat-73696.herokuapp.com/v1/task/';
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
 
